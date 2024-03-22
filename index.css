@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --primary-text:'Poppins', serif;
+    --second-text:'Nanum Myeongjo', serif;
+    --third-text: 'Playfair', serif;
+}
+
+
+.contenedor-total{
+    background-color: rgba(250, 250, 250, 1);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contenedor-blanco{
+    background-color: white;
+    width: 80%;
+    height: 85%;
+    margin-top: 40px;
+    box-shadow: rgb(159, 153, 153);
+    /* border: 14px rgb(159, 153, 153); */
+    box-shadow: 1px 4px 10px darkslategray;
+}
+#text-content {
+    max-width: 100%;
+    height: 100%;
+}
+
+#text-content h1{
+    margin-top:5px;
+    font-family: var(--primary-text);
+    font-size: 20px;
+    font-weight: 200;
+    color: rgb(107, 105, 105);
+    text-align: center;
+}
+
+#text-content h2{
+    font-family: var(--primary-text);
+    font-size: 20px;
+    font-weight:400;
+    color:black;
+    text-align: center;
+}
+
+
+
+
+
+#text-content p{
+    font-family: var(--primary-text);
+    font-size: 10px;
+    /* font-weight: 200; */
+    color: darkgray;
+    text-align: center;
+}
+
+
+#Target-contenedor{
+    display: grid;
+    grid-template-columns: 200px 220px 200px;
+    grid-template-rows: 320px;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#Target-contenedor  p{
+    font-family: var(--primary-text);
+    font-size: 10px;
+    text-align: left;
+};
+
+
+#text-content #Target-contenedor .componente1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#Target-contenedor .cajitas .imagen{
+    width: 30px;
+    height: 30px;
+    margin-top: 43px;
+    margin-left: 152px;
+}
+
+#Target-contenedor .box1{
+    border-top:5px solid rgba(74, 157, 252, 1);
+}
+
+#Target-contenedor .box2{
+    border-top:5px solid rgba(234, 83, 83, 1);
+
+}
+
+#Target-contenedor .box3{
+    border-top:5px solid rgba(252, 155, 29, 1);
+
+}
+
+#Target-contenedor .box4{
+    border-top:5px solid rgba(98, 218, 218, 1);
+
+}
+
+#Target-contenedor .cajitas{
+    width:200px ;
+    height:150px ;
+    background-color:white;
+    box-shadow: 1px 4px 10px rgba(163, 165, 174, 1);
+    border-radius: 3%;
+    margin-bottom: 3px;
+    text-align: left;
+};
+
+#Target-contenedor  h2{
+    font-family: var(--primary-text);
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
